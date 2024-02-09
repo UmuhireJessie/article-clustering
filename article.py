@@ -11,7 +11,7 @@ st.set_page_config(page_title="Latest News Clusters")
 
 # News API settings
 API_ENDPOINT = "https://newsapi.org/v2/top-headlines?country=us&apiKey=4a8422b7876b4fbb9628dc900e9c24d7"
-API_KEY = "4a8422b7876b4fbb9628dc900e9c24d7"  # Please replace this with your actual News API key
+API_KEY = "4a8422b7876b4fbb9628dc900e9c24d7"  # Please replace this with the actual News API key even for the above URL
 
 # Define the number of clusters for article grouping
 CLUSTER_COUNT = 10
