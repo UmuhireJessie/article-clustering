@@ -10,7 +10,13 @@ Note: Deployed version of the web pages [Here](https://article-clustering.stream
 
 ## Packages Used
 
-This project has used the some packages such as numpy, tensorflow, which have to be installed to run this web app locally present in `requirements.txt` file. 
+- **streamlit** for creating the web app interface.
+- **requests to make HTTP requests to fetch news articles from an API.
+- **TfidfVectorizer** from sklearn.feature_extraction.text for converting text documents into matrix of TF-IDF features.
+- **KMeans** from sklearn.cluster for clustering the articles based on content similarity.
+- Standard libraries such as datetime, os, and json for working with dates, file paths, and JSON data, respectively.
+
+Please note that these packages should be installed first, as per `requirements.txt`
 
 ## Installation
 
